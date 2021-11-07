@@ -1,0 +1,81 @@
+.logo
+{
+    width: 8em;
+    padding: 0;
+}
+
+.busqueda
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barraB
+{
+    border-radius: 0.5em;
+
+}
+
+.icon
+{
+    
+    width: 1.75em;
+    padding: 4px;
+}
+
+.icon:hover
+{
+    filter: invert(68%) sepia(27%) saturate(1089%) hue-rotate(345deg) brightness(100%) contrast(99%);
+}
+
+.icon-md
+{
+    width: 1.75em;
+    padding: 4px;
+    margin-left: 15px;
+}
+
+.icon-prod
+{
+    width: 2em;
+    padding: 4px;
+    margin-left: 15px;
+}
+
+.img-prod
+{
+    align-items: initial;
+    width: 4em;
+    border-radius: 10%;
+}
+
+.icon-md:hover
+{
+    filter: invert(68%) sepia(27%) saturate(1089%) hue-rotate(345deg) brightness(100%) contrast(99%);
+}
+
+.img-log
+{
+    width: 10em;
+}
+@media (min-width: 760px)
+{
+    .icon-md
+    {
+       width: 4em;
+    }
+    .icon-prod
+    {
+       width: 4em;
+    }
+    .img-prod
+    {
+        width: 7em;
+    }
+    .barraB
+    {
+        width: 20em;   
+    }
+}
