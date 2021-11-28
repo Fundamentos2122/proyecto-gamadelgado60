@@ -32,5 +32,6 @@ html, body { margin: 0; }
     --color-dark-darked: #030303;
     --border-color: #dee2e6;
     --color-pie: #777879;
+    --color-borderb: rgb(197, 197, 197);
     --container-padding: 1em;
 }

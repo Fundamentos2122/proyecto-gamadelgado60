@@ -298,7 +298,7 @@ html, body {
 }
 
 .pie {
-    border-radius: 2%;
+    border-radius: 2% 2% 0 0;
     width: 100%;
     background: var(--color-pie);
     bottom: 0;

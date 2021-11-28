@@ -32,7 +32,7 @@
 
 .icon-md
 {
-    width: 1.75em;
+    width: 2em;
     padding: 4px;
     margin-left: 15px;
 }
@@ -46,8 +46,8 @@
 
 .img-prod
 {
-    align-items: initial;
-    width: 4em;
+    align-items: center;
+    width: 7em;
     border-radius: 10%;
 }
 
@@ -64,7 +64,7 @@
 {
     .icon-md
     {
-       width: 4em;
+       width: 3em;
     }
     .icon-prod
     {
@@ -72,7 +72,7 @@
     }
     .img-prod
     {
-        width: 7em;
+        width: 16em;
     }
     .barraB
     {
