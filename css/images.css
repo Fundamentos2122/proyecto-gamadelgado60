@@ -43,11 +43,23 @@
     padding: 4px;
     margin-left: 15px;
 }
-
+.imgnove
+{
+    width: 15em;
+    border: 2px solid var(--color-borderb);
+    border-radius: 3%;
+}
 .img-prod
 {
     align-items: center;
-    width: 7em;
+    width: 15em;
+    border-radius: 10%;
+}
+
+.img-usr-ch
+{
+    align-items: center;
+    width: 4em;
     border-radius: 10%;
 }
 
@@ -62,6 +74,10 @@
 }
 @media (min-width: 760px)
 {
+    .imgnove
+    {
+        width: 55em;
+    }
     .icon-md
     {
        width: 3em;
@@ -73,6 +89,10 @@
     .img-prod
     {
         width: 16em;
+    }
+    .img-usr-ch
+    {
+        width: 5em;
     }
     .barraB
     {

@@ -41,14 +41,91 @@
                 </ul>
             </div>
         </nav>
-        <div class="col">
+        <div class="col cont-prod">
+            <div class="row contenP">
+                <div class="col-12 col-md-6">
+                    <div class="carrusel" role='navigation'>
+                    <ul class="carrusel-fotos">
+                        <img class="mySlides" src="img/foto1.jpg" style="width:100%;">
+                        <img class="mySlides" src="img/foto2.jpg" style="width:100%;display:none">
+                        <img class="mySlides" src="img/foto3.jpg" style="width:100%;display:none">
+                        <img class="mySlides" src="img/foto4.jpg" style="width:100%;display:none">
+                        <img class="mySlides" src="img/foto5.jpg" style="width:100%;display:none">
+                        <img class="mySlides" src="img/foto6.jpg" style="width:100%;display:none">
+                    </ul>
+                    <ul class="carrusel-menu">
+                      <li><a href="#" onclick="currentDiv(1)"><img src="img/foto1.jpg" alt=""></a></li>
+                      <li><a href="#" onclick="currentDiv(2)"><img src="img/foto2.jpg" alt=""></a></li>
+                      <li><a href="#" onclick="currentDiv(3)"><img src="img/foto3.jpg" alt=""></a></li>
+                      <li><a href="#" onclick="currentDiv(4)"><img src="img/foto4.jpg" alt=""></a></li>
+                      <li><a href="#" onclick="currentDiv(5)"><img src="img/foto5.jpg" alt=""></a></li>
+                      <li><a href="#" onclick="currentDiv(6)"><img src="img/foto6.jpg" alt=""></a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <br>
+                    <div class="col-12 TitulProd bord-prod-t bord-prod-b">Titulo producto</div>
+                    <div class="Pprod bord-prod-b">$500</div>
+                    <br>
+                    <div class="row btns-prod">
+                        <div class="col-md-4 col-12 but">
+                            <div class="btn btn-primary">Comprar ahora</div>
+                        </div>
+                        <div class="col-md-4 col-12 but">
+                            <div class="btn btn-primary">Agregar a favoritos</div>
+                        </div>
+                        <div class="col-md-4 col-12 but">
+                            <div class="btn btn-primary">Agregar al carrito</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+        <br>
+        <div class="col cont-prod">
             <div class="row">
-                <div class="col-12   col-6"><img src="https://picsum.photos/400" alt="" class="img-prod"></div>
-                <div class="col-6">hola2</div>
+                <div class="col-12 TitulProd bord-prod-t bord-prod-b">Descripcion</div>
+                <div class="col-12">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil alias quos qui modi. Tenetur sunt saepe, doloribus distinctio aspernatur velit, quidem dolorem quos atque maxime quia. Libero culpa maiores corporis.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias temporibus ducimus vitae fugiat iste quas, quibusdam non cum laborum animi! Ut mollitia est harum fugiat sed, vel atque suscipit molestiae. 
+                </div>
             </div>
         </div>
-
         <br>
+        <div class="col cont-prod">
+            <div class="col-12 TitulProd bord-prod-t bord-prod-b">Reseñas</div>
+            <div class="row resena bord-prod-b">
+                <div class="col-md-4">
+                    <div class="TitulProd">4.6/5</div>
+                    <p>nombre usuario</p>
+                </div>
+                <div class="col-md-8">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est a nemo quis. Cupiditate voluptate doloremque obcaecati soluta dolorem esse maiores facilis illo maxime delectus, consectetur quisquam deserunt. Praesentium, unde necessitatibus.
+                </div>
+            </div>
+            <div class="row resena bord-prod-b">
+                <div class="col-md-4">
+                    <div class="TitulProd">4.2/5</div>
+                    <p>nombre usuario</p>
+                </div>
+                <div class="col-md-8">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est a nemo quis. Cupiditate voluptate doloremque obcaecati soluta dolorem esse maiores facilis illo maxime delectus, consectetur quisquam deserunt. Praesentium, unde necessitatibus.
+                </div>
+            </div>
+            <div class="row resena bord-prod-b">
+                <div class="col-12">
+                    <div class="TitulProd">Escribir una resena</div>
+                </div>
+                <div class="col-12">
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="col-12" style="direction: rtl;">
+                    <div class="btn btn-primary">Guardar</div>
+                </div>
+            </div>
+        </div>
     </div>
     
     <br><br>
@@ -60,5 +137,6 @@
         </div>
     </footer>
     <script src="js/framework.js"></script>
+    <script src="js/carrusel.js"></script>
 </body>
 </html>

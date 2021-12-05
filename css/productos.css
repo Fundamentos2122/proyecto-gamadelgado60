@@ -14,6 +14,23 @@
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
+.cont-prod
+{
+    border: 2px solid var(--color-borderb);
+    border-bottom-right-radius: 2%;
+    border-bottom-left-radius: 2%;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    padding: 2em;
+}
+.bord-prod-t
+{
+    border-top: 2px solid var(--color-borderb);
+}
+.bord-prod-b
+{
+    border-bottom: 2px solid var(--color-borderb);
+}
 .pimg
 {
     border: 2px solid var(--color-borderb);
@@ -42,8 +59,51 @@
     text-align: left;
     padding: 0;
 }
+.btns-prod
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btns-prod > .but
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0.5em;
+}
+.contenP
+{
+}
+.carrusProd
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TitulProd
+{
+    display: flex;
+    align-items:flex-start;
+        justify-content: start;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.resena
+{
+    padding: 0.5em;
+}
+
+textarea{
+    height: 100px;
+    width: 100%;
+    resize: none;
+}
 @media (min-width: 760px)
 {
+    .btns-prod > .but
+    {
+        margin: 0;
+    }
     .pimg
     {
         width: 14em;
@@ -65,5 +125,10 @@
     .lista-prod > .prod
     {
         padding: 0.5em;
+    }
+    .TitulProd
+    {
+        
+        font-size: 1.7em;
     }
 }
