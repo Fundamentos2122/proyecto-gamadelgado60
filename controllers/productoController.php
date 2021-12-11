@@ -188,7 +188,6 @@ else if($_SERVER["REQUEST_METHOD"]== "POST")
         }
         try{
             $query = $connection->prepare('INSERT INTO producto VALUES(NULL, :nombre_prod, :precio_prod, :descripcion,:id_vendedor, :fotos)');
-            $query->bindParam(':id',$id, PDO::PARAM_INT);
             $query->bindParam(':nombre_prod',$nombre_prod, PDO::PARAM_STR);
             $query->bindParam(':precio_prod', $precio_prod, PDO::PARAM_STR);
             $query->bindParam(':descripcion',$descripcion, PDO::PARAM_STR);
@@ -300,7 +299,7 @@ else if($_SERVER["REQUEST_METHOD"]== "POST")
         $calificacion = $_POST['calificacion'];
         $comentario = $_POST['comentario'];
         try{
-            $query = $connection->prepare('INSERT INTO comentarios VALUES(:idprod, :nombre_usuario, :calificacion,:comentario)');
+            $query = $connection->prepare('INSERT INTO comentarios VALUES(NULL,:idprod, :nombre_usuario, :calificacion,:comentario)');
             $query->bindParam(':idprod',$idprod, PDO::PARAM_INT);
             $query->bindParam(':nombre_usuario', $nombre_usuario, PDO::PARAM_STR);
             $query->bindParam(':calificacion',$calificacion, PDO::PARAM_INT);
